@@ -1,0 +1,127 @@
+.main-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h1 {
+  font-size: 2.5em;
+}
+
+.highlight {
+  color: dodgerblue;
+}
+
+.car-background {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.car-background img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: -40px auto 0 auto;
+  max-width: 1000px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.input-group input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.input-group input:focus{
+    outline: none;
+}
+
+.borderLeft{
+    border-left: 1px solid grey;
+}
+
+.input-group label{
+    padding-left: 10px; 
+}
+
+.search-button {
+    padding: 15px 25px;
+    background: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+  background: darkblue;
+}
+
+.car-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.car-panel {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  cursor:pointer;
+}
+
+.car-panel img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.car-panel h2 {
+  font-size: 1.5em;
+  margin: 16px 0 8px;
+}
+
+.car-panel p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.search-result{
+    padding-top: 50px;
+    padding-left: 50px;
+}

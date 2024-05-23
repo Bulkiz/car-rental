@@ -1,0 +1,69 @@
+.reservations-container{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reservations-container body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.reservations-container h2 {
+    color: #333;
+}
+
+.reservations-container table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.reservations-container thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+.reservations-container th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+}
+
+.reservations-container th {
+    background-color: #0056b3;
+}
+
+.reservations-container tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.reservations-container tbody tr td:last-child {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.delete-button {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+
+    .delete-button:hover {
+        background-color: darkred;
+        color: white;
+    }

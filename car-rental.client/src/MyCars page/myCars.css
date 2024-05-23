@@ -1,0 +1,54 @@
+.cars-container{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cars-container body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.cars-container h2 {
+    color: #333;
+}
+
+.cars-container table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cars-container thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+.cars-container th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+}
+
+.cars-container th {
+    background-color: #0056b3;
+}
+
+.cars-container tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cars-container tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.cars-container tbody tr td:nth-last-child(-n+2) {
+    font-weight: bold;
+    color: #0056b3;
+}

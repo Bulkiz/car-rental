@@ -1,0 +1,86 @@
+.signup-container {
+    display: flex;
+    height: 900px;
+    background-color: #F3FFF4FF;
+    border-radius: 10px;
+    height: 97vh;
+}
+
+.left-side-signup {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side-signup {
+    flex: 1;
+    background: linear-gradient(to bottom, #9EFF9E, #4CAF50);
+    border-radius: 10px;
+}
+
+.green-panel {
+    height: 100%;
+}
+
+.car-image-signup {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: auto;
+    z-index: 0;
+}
+
+.input-container {
+    padding: 20px;
+}
+
+.invis-btn-signup {
+    background: transparent;
+    border: none;
+    color: black;
+}
+
+.invis-btn-signup:hover {
+    background: transparent;
+    border: none;
+    color: #85F38AFF;
+    cursor: pointer;
+}
+
+.signup-btn {
+    width: 360px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    width: 360px;
+    background: darkgreen;
+    border: none;
+    color: white;
+    height: 30px;
+}
+
+.dropdown {
+    width: 360px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.dropdown:focus{
+    outline: none;
+    border-color: black;
+}
+
+
